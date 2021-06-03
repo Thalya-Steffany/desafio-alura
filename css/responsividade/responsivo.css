@@ -1,0 +1,132 @@
+/*intervalo 900 - 1000px*/
+@media screen and (max-width: 1000px){
+    
+    .cabecalho__logo img {
+        width: 10rem;
+        height: 3.6rem; 
+    }
+
+    .lateral__esquerdo--menu {
+        margin-left: 7rem;
+    }
+    .lateral__esquerdo--menu-itens a {
+        font-size: .6rem;
+    }
+    .lateral__esquerdo--menu-itens img {
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 783px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) and (max-width: 1273px){
+ /*   .cabecalho__pesquisa input {
+        width: 29.2rem;
+    }
+    .lateral__esquerdo--menu  {
+        margin-left: 8rem;
+    }
+    .caixas-input, .caixa-de-selecao {
+        width: 12rem;
+    }
+    .lateral__esquerdo--menu-itens a {
+        font-size: .8rem;
+    }
+}*/
+/*
+@media screen and (max-width: 1273px) {
+    .cabecalho__pesquisa input {
+      width: 29.2rem;
+        transition: 1s all;
+
+    }
+    .campo__Escrevercodigo {
+        width: 49%;
+    }
+
+}*/
+@media screen and (max-width: 837px) {
+    .cabecalho {
+        margin-left: -2.21rem;
+    }
+    .cabecalho__usuario {
+        display: none;
+    }
+    .container_lateral {
+        flex-direction: column;
+    }
+    .lateral_esquerdo {
+        display: none;
+    }
+    .campo__Escrevercodigo {
+        width: 89%;
+        margin-left: 6rem;
+    }
+    .botoes__coloridos {
+        top: 30%;
+        margin-left: 9%;
+    }
+    .inserir-projeto {
+        width: 100%;
+        margin-top: 15%;
+        margin-left: 20%;
+    }
+    .lateral_direito {
+        width: 89%;
+    }
+
+    .campo-1 , .campo-2 , .campo-3 {
+        width: 79%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .campo-3 {
+        text-align: center;
+    }
+    .color-pick {
+        margin-top: 0;
+        margin-left: 2%;
+        padding: 2%;
+    }
+    .opcoes-e-cores {
+        display: flex;
+        align-items: center;
+    }
+    .caixa-de-selecao, .color-pick {
+        width: 37%;
+
+    }
+}
+}

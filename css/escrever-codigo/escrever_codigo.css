@@ -1,0 +1,58 @@
+
+.conteudo__entrarCodigo {
+    background: #6BD1FF;
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 4%;
+
+    border-radius: .8rem;
+}
+.codigo-area {
+    background: black;
+    color: #fff;
+    width: 90%;
+    margin-left: 5%;
+    border: hidden;
+    border-radius: .8rem;
+
+}
+.botoes__coloridos {
+    display: flex;
+    margin-left: 5%;
+    position: absolute;
+    top: 29%;
+}
+.botoes__coloridos--vermelho {
+    width: 1rem;
+    height: 1rem;
+    background: #FF5F56;
+    border-radius: 100%;
+    margin-right: 15%;
+}
+.botoes__coloridos--amarelo {
+    width: 1rem;
+    height: 1rem;
+    background: #FFBD2E;
+    border-radius: 100%;
+    margin-right: 15%;
+
+}
+.botoes__coloridos--verde {
+    width: 1rem;
+    height: 1rem;
+    background: #27C93F;
+    border-radius: 100%;
+}
+
+.conteudo__meio--botao {
+    width: 90%;
+    background-color: #0d2747;
+    color: #fff;
+    margin-top: 5%;
+    margin-left: 5%;
+    border: hidden;
+    border-radius: .8rem;
+    padding: 1.5rem;
+    cursor: pointer;
+}

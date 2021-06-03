@@ -1,0 +1,43 @@
+.inserir-projeto{
+    margin-left: 3%;
+
+}
+.area-personalizacao, .sidebar-title{
+    margin-left: 0;
+}
+
+.caixas-input, .caixa-de-selecao {
+    width: 15rem;
+    background-color: #2D415A;
+    border: hidden;
+    border-radius: .4rem;
+    padding: 1rem;
+
+}
+.campo-1 {
+    margin-bottom: 5%;
+
+}
+.opcoes-linguagens {
+    background-color: #2D415A;
+}
+.area-de-selecao {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.color-pick {
+    width: 15rem;
+    padding: 3%;
+    border-radius: .4rem;
+    margin-top: 5%;
+}
+.botao-salvar-projeto {
+    width: 90%;
+    margin-top: 7%;
+    background-color: #5081FB;
+    border: hidden;
+    padding: 1rem;
+    border-radius: .4rem;
+}

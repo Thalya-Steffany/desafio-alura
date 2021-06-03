@@ -1,0 +1,32 @@
+:root {
+    --cor-de-fundo:#051D3B;
+    --cor-normal:#5081FB;
+    --cor-hover:#7BA4FC;
+    --cor-focus:#96B9FD;
+    --sombras:rgb(0,0,0,0.24);
+    --azul-padrao-inputs-sidebar:#2D415B;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+     font-size: 10px;
+    color: #fff;
+}
+.titulos {
+    font-size: 2.1rem;
+    line-height: 3.2rem;
+}
+.sidebar-title {
+    color: #fff;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.4em;
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    margin-left: 1rem;
+
+}

@@ -1,0 +1,161 @@
+.cabecalho__usuario--responsivo {
+    background-color: rgb(243, 113, 113);
+    width: 4%;
+    padding-bottom: 2%;
+    margin-right: 4%;
+    display: none;
+    font-size: 5px;
+}
+
+
+.campo__Escrevercodigo-infos {
+    width: 50%;
+    height: 98%;
+    margin:5%;
+    /*background-color: greenyellow;*/
+}
+.campo__Escrevercodigo--botao {
+  /*  background-color: rgba(163, 37, 37, 0.479);*/
+    width: 50%;
+    height: 5%;
+    margin-top: 20%;
+    position: absolute;
+
+}
+
+
+
+/*Usuario icone resposivo*/
+@media screen and (max-width: 768px) {
+    .cabecalho__usuario {
+        display: none;
+    }
+    .cabecalho__usuario--responsivo {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*BÁSICO ESTADO 2*/
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    height: 5.6rem;
+    text-align: center;
+    padding-top: 3%;
+    margin-left: -6.21rem;
+   
+}
+
+.cabecalho__logo {
+    /*background-color: rgb(255, 9, 235);*/
+    width: 10%;
+    padding-bottom: 7%;
+}
+
+.cabecalho__pesquisa {
+    /*background-color: rgb(0, 128, 32);*/
+    width: 50%;
+    padding-bottom: 7%;
+}
+
+.cabecalho__usuario{
+    /*background-color: rgb(60, 0, 128);*/
+    width: 6%;
+    padding-bottom: 4%;
+    border-radius: 100%;
+    margin-right: 4%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*BÁSICO ESTADO 1*/
+body{
+  /*  background-color: rgb(161, 159, 159);*/
+    width: 100%;
+    margin: 0;
+
+}
+.todo_conteudo {
+    display: flex;
+    flex-direction: column;
+}
+.cabecalho {
+    /*background-color: yellow;*/
+    width: 100%;
+}
+.container_lateral {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -6rem;
+}
+
+.lateral_esquerdo {
+    /*background-color: teal;*/
+    width: 30%;
+    height: auto;
+}
+.campo__Escrevercodigo {  
+  /*  background-color: purple;*/
+    width: 50%;
+    height: auto;
+    margin-left: -6rem;
+}
+.lateral_direito {
+    /*background-color: violet;*/
+    width: 20%;
+    height: auto;
+}
+
+.rodape {
+
+   /* background-color: tomato;*/
+    width: 100%;
+    padding-top: 3%;
+}

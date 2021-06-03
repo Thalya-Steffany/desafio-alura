@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo-estado3.css">
+    <link rel="stylesheet" href="css/geral.css">
+    <link rel="stylesheet" href="css/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="css/menu/menu.css">
+    <link rel="stylesheet" href="css/escrever-codigo/escrever_codigo.css">
+    <link rel="stylesheet" href="css/seu-projeto/seu-projeto.css">
+    <link rel="stylesheet" href="css/responsividade/responsivo.css">
+    <!--FONTES-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <title>Alura Dev</title>
+</head>
+<body>
+    <div class="todo_conteudo">
+        <header class="cabecalho">.
+            <div class="cabecalho__logo"><img src="imgs/logo.png" alt="Logotipo alura dev"> </div>
+            <div class="cabecalho__pesquisa"><input type="search" placeholder="Busque por algo"> </div>
+            <div class="cabecalho__usuario"> <img src="imgs/Photo@3x.png" alt="Foto de perfil do usuário"><p>Harry</p></div>
+            <div class="cabecalho__usuario--responsivo">Apareço em 768px</div>
+        </header>
+
+
+        <div class="container_lateral">
+            <section class="lateral_esquerdo">
+                <nav class="lateral__esquerdo--menu">
+                    <p class="sidebar-title">Menu</p>
+                    <ul>
+                            <li class="lateral__esquerdo--menu-itens">
+                                <a href="#">
+
+                                    <img src="imgs/html-coding.png" alt="">
+                                        <p>Editor de código</p>
+                              </a>
+
+                            </li>
+
+                            <li class="lateral__esquerdo--menu-itens">
+                                <a href="#">
+                                    <img  src="imgs/group.png" alt="">
+                                        <p>Comunidade</p>
+                                </a>
+
+                             </li>
+                    </ul>
+                </nav>
+            </section>
+            <div class="campo__Escrevercodigo">
+                <div class="conteudo__entrarCodigo">
+                    <textarea name="codigo-area" class="codigo-area" cols="39" rows="23"></textarea>
+                    <div class="botoes__coloridos">
+                        <div class="botoes__coloridos--vermelho"></div>
+                        <div class="botoes__coloridos--amarelo"></div>
+                        <div class="botoes__coloridos--verde"></div>
+
+                     </div>
+                </div>
+                <button class="conteudo__meio--botao">Visualizar com o highlight</button> 
+            </div>
+            <section class="lateral_direito">
+                <form action="" class="inserir-projeto">
+                <div class="area-personalizacao">
+                    <h3 class="sidebar-title">Seu projeto</h3>
+                    <input type="text" id="campo-nome" class="caixas-input campo-1 " placeholder="Nome do seu projeto">
+                    <textarea name="" id="" cols="30" rows="10" class="caixas-input campo-2" placeholder="Descrição do seu projeto"></textarea>   
+    
+                    <div class="area-de-selecao">
+                        <h3 class="sidebar-title">Pesonalização</h3>
+                        <div class="opcoes-e-cores">
+                            <select name="" id="" class="caixa-de-selecao caixas-input">
+                                <option value="javascript" class="opcoes-linguagens">JavaScript</option>
+                                <option value="php" class="opcoes-linguagens">PHP</option>
+                                <option value="phyton" class="opcoes-linguagens">Phyton</option>
+                            </select>
+                            <!--Mudar esse item para um color picker  -->
+                            <input type="color"  class="caixas-input color-pick" value="#6BD1FF" >
+                        </div>
+                        
+    
+                    </div>
+    
+                </div>
+    
+    
+                <input type="button" value="Salvar projeto" class="botao-salvar-projeto campo-3">
+            </form>
+            </section>
+    
+        </div>
+
+    </div>
+
+</body>
+</html>
