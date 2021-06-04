@@ -1,6 +1,5 @@
 /*intervalo 900 - 1000px*/
 @media screen and (max-width: 1000px){
-    
     .cabecalho__logo img {
         width: 10rem;
         height: 3.6rem; 
@@ -76,7 +75,14 @@
     }
 
 }*/
-@media screen and (max-width: 837px) {
+
+@media screen and (max-width: 767px) {
+    
+}
+@media screen and (max-width: 800px) {
+    body {
+        width: 80%;
+    }
     .cabecalho {
         margin-left: -2.21rem;
     }
